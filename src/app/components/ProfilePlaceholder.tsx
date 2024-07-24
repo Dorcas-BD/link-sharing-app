@@ -7,7 +7,6 @@ import {
   Text,
 } from "@chakra-ui/react";
 import "react-placeholder/lib/reactPlaceholder.css";
-import "./ProfilePlaceholder.css";
 
 const ProfilePlaceholder = () => {
   return (
