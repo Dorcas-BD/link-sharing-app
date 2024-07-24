@@ -6,7 +6,6 @@ import {
   SkeletonText,
   Text,
 } from "@chakra-ui/react";
-import "react-placeholder/lib/reactPlaceholder.css";
 
 const ProfilePlaceholder = () => {
   return (

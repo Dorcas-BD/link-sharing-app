@@ -16,11 +16,9 @@ import {
   FormErrorMessage,
 } from "@chakra-ui/react";
 import { useState } from "react";
-import { storage, db } from "@/lib/firebase"; // Adjust the import according to your setup
+import { storage, db } from "@/lib/firebase";
 import { ref, uploadBytes, getDownloadURL } from "firebase/storage";
 import { doc, updateDoc } from "firebase/firestore";
-import Placeholder from "react-placeholder";
-import "react-placeholder/lib/reactPlaceholder.css";
 import Navbar from "../components/Navbar";
 import { FiPlus, FiChevronDown } from "react-icons/fi";
 import {
