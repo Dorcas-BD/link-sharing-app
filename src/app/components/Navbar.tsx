@@ -8,7 +8,7 @@ interface NavbarProps {
 
 const Navbar = ({ activeMenu, setActiveMenu }: NavbarProps) => {
   const handlePreview = () => {
-    window.location.href = "/profile-preview";
+    window.location.href = "/";
   };
 
   const getButtonStyles = (menu: string) => ({
